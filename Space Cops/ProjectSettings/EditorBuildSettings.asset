@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/SpaceCops/_Scenes/MainMenu.unity
+    guid: 38e5438558ced5047974fe478a2c8ec8
+  - enabled: 1
+    path: Assets/SpaceCops/_Scenes/Main.unity
+    guid: 31aa8714e2d08404b8b57259b3e8b13f
+  - enabled: 1
+    path: Assets/SpaceCops/_Scenes/_Scene_1.unity
+    guid: c876f84c836372848b37415f2a77e9a1
+  m_configObjects: {}
