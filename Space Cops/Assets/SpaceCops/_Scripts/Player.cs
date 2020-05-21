@@ -15,8 +15,12 @@ public class Player : MonoBehaviour
     public float accelRate = 5f;
     public float deAccelRate = 25f;
     public float power = 10.0f;
+
+    //Prefabs
     public GameObject bulletPrefab;
     public GameObject locBulletSpawnPrefab;
+
+    //Audio
     public AudioClip audioClip;
     public AudioClip bullAudioClip;
     public AudioClip exAudioClip;
@@ -65,6 +69,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    //Collisions with the player
     void OnCollisionEnter(Collision coll)
     {
         GameObject collidedWith = coll.gameObject;
@@ -89,6 +94,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    //Restarts the level
     void LoadLevel()
     {
         SceneManager.LoadScene("Main");
